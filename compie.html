@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content='חברת Compie Technologies מפתחת פלטפורמות Web מורכבות, אפליקציות, DevOps, AOT, IOT, AR/VR ותוכנה לחברות גדולות במשק וסטראטאפים. Compie הוקמה על ידי יוצאי 8200 ומשרד הביטחון ומונה כ-40 מפתחים וממוקמת ברמת החייל, ת"א'
+    />
+    <meta
+      name="keywords"
+      content="פיתוח אתרי אינטרנט, פיתוח Web, פיתוח אפליקציות, PHP, AnuglarJS, ReactJS, NodeJS, בית תוכנה, חברת פיתוח"
+    />
+    <!-- Open Graph Meta tags -->
+    <meta
+      property="og:title"
+      content="חברת Compie Technologies מפתחת פלטפורמות Web מורכבות, אפליקציות, DevOps, AOT, IOT, AR/VR ותוכנה לחברות גדולות במשק וסטראטאפים"
+    />
+    <meta
+      property="og:description"
+      content='חברת Compie Technologies מפתחת פלטפורמות Web מורכבות, אפליקציות, DevOps, AOT, IOT, AR/VR ותוכנה לחברות גדולות במשק וסטראטאפים. Compie הוקמה על ידי יוצאי 8200 ומשרד הביטחון ומונה כ-40 מפתחים וממוקמת ברמת החייל, ת"א.'
+    />
+    <meta property="og:url" content="http://www.compie.co.il/" />
+    <meta property="og:site_name" content="Compie Technologies" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="http://www.compie.co.il/assets/img/Logo.svg"
+    />
+
+    <link rel="icon" href="./files/favicon.ico" />
+
+    <title>Compie</title>
+    <style>
+      body {background:black;}
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        background-color: black;
+        width: 100%;
+        min-height: calc(100vh - 130px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        overflow-x: hidden;
+      }
+      .img-desktop {
+        display: flex;
+        object-fit: contain;
+        height: auto;        
+        max-width: 100%;
+        position: relative;
+      }
+      .img-mobile {
+        display: none;
+      }
+      h2 { 
+        position: absolute;
+        top: 50vh; 
+        left: 50%; 
+        width: 30%; 
+        color: #FFF;
+        font-size: 4.0vw;
+      }
+      #footer>*{
+        padding:0 10px;
+      }
+      #footer{
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 2vw;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        top: 85vh;
+      }
+      #footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      @media only screen and (max-width: 1200px) {
+        .img-mobile {
+          display: none;
+        }
+        h2 {
+          position: absolute;
+          width: 35%;
+          font-size: 4.5vw;
+        }
+        #footer{
+          font-size: 2vw;
+          top: 80vh;
+        }
+      }
+      @media only screen and (max-width: 768px) {
+        body{
+          flex-direction: column;
+        }
+        .container{
+          min-height: calc(100vh - 240px);
+        }
+        .img-desktop {
+          display: none;
+        }
+        .img-mobile {
+          display: flex;
+          object-fit: contain;
+          height: 555px;
+          width: 100%;
+          max-width: 325px;
+        }
+        h2 { 
+          position: absolute;
+          top: 60vh;
+          left: 20%; 
+          width: 65%; 
+          font-size: 8.0vw;
+          text-align: center;
+        }
+        #footer{
+          font-size: 5vw;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          top: 75vh;
+        }
+        .separator{
+          display: none;
+        }     
+      }
+    </style>
+  </head>
+  <body>    
+    <div class="container">
+      <img class="img-desktop" src="./files/cover-construction-desktop.png" alt="Site Still under construction" />
+      
+      <img class="img-mobile" src="./files/cover-construction-mobile.png" alt="Site Still under construction" />      
+    </div>
+      <h2>Our new website is on it's way</h2>    
+    <div id="footer">
+      <div><a href="tel:035610901">Call 03-561-0901</a></div>
+      <span class="separator">*</span>
+      <div><a href="mailto:contact@compie.co.il?subject=Mail from Our Site">contact@compie.co.il</a></div>
+      <span class="separator">*</span>
+      <div>
+        <address>
+          Sapir Tower, Tuval Street 40, Ramat Gan
+        </address>
+      </div>      
+    </div>
+  </body>
+</html>
